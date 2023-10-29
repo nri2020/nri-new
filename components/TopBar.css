@@ -1,0 +1,69 @@
+.top-bar {
+    width: 100%;
+    height: 12vh;
+    background-color: #0e0e23;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 3%;
+}
+
+.top-bar .input {
+    display: flex;
+}
+
+.top-bar .input .input-box {
+    width: 15vw;
+    height: 7vh;
+    border: 1px solid #ffffff3d;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.top-bar .input .input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.top-bar .input .btn-box {
+    width: 3vw;
+    height: 7vh;
+    border: 1px solid #ffffff3d;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #78768f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .actions {
+    display: flex;
+    gap: 10px;
+}
+.top-bar .actions .icon{
+    padding: 5px;
+    border-radius: 50%;
+}
+.top-bar .actions .icon:hover{
+    background-color: #78768f;
+    cursor: pointer;
+}
+.top-bar .actions .setting svg{
+    animation: rotate360 5s linear infinite;
+}
+
+@keyframes rotate360 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

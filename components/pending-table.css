@@ -1,0 +1,77 @@
+.pending-table{
+    width: 100%;
+    padding: 0px 20px;
+}
+.pending-table .title{
+    width: 100%;
+    padding: 10px 0px;
+    color: aliceblue;
+}
+.pending-table .table{
+    width: 100%;
+    height: auto;
+}
+.pending-table .table .header{
+    width: 100%;
+    height: 8vh;
+    background:linear-gradient(to bottom, yellowgreen,rgb(42, 45, 32)) ;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.pending-table .table .header.green{
+    background:linear-gradient(to bottom, green,rgb(42, 45, 32)) ;
+}
+.pending-table .table .header.c-header{
+    background:linear-gradient(to bottom, green,rgb(42, 45, 32)) ;
+}
+.pending-table .table .header .p-title{
+    color: aliceblue;
+    text-transform: uppercase;
+    width: calc(100% / 5);
+    text-align: center;
+    align-items: center;
+}
+.pending-table .table .body{
+    width: 100%;
+    height: auto;
+}
+.pending-table .table .body .item{
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1.5px solid #d7d7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.pending-table .table .body .item .subItem{
+    width: calc(100% / 5);
+    height: 100%;
+    color: aliceblue;
+    background-color: black;
+}
+.pending-table .table .body .item .subItem.pending{
+    color: yellow;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.pending-table .table .body .item .subItem.complete{
+    color: green;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.pending-table .table .body .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 600;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+    background-color: black;
+}
